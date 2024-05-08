@@ -89,9 +89,16 @@ input#iesqueci{
     padding: 10px;
     margin-top: 5px;
     width: 95%;
-    border-color: #49a09d;
+    border-color: #6dc5c2;
     border-radius: 10px;
     margin-left: 6px;
     font-size: 1em;
     
+}
+input#ientrar:hover{
+    background-color: #35807d;
+}
+
+input#iesqueci:hover{
+    background-color: #a1d3d1;
 }
