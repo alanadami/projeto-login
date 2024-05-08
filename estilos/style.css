@@ -11,11 +11,57 @@ Lilás: #5f2c82
     padding: 0px;
 }
 
-body {
+body, html {
     background-color: #5f2c82;
     font-family: Arial, Helvetica, sans-serif;
+
+    width: 100vw;
+    height: 100vh;
 }
 
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #5f2c82 url(../img/fechadura.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+
+/*
 main{
     display: flex;
     margin: auto;
