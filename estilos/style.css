@@ -5,3 +5,93 @@ Paleta de cores
 verde: #49a09d
 Lilás: #5f2c82
 */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #5f2c82;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 520px;
+       
+}
+
+section > div#imagem{
+    background: url(../img/fechadura.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 280px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+section > div#formulario{
+    background-color: white;
+    width: 280px;
+    height: 320px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+div#formulario > p{
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: justify;
+}
+
+input#iemail{
+    width: 87%;
+    margin-top: 5px;
+    margin-left: 6px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input#isenha{
+    width: 87%;
+    margin-top: 5px;
+    margin-left: 6px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input#ientrar{
+    background-color: #49a09d;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 6px;
+    font-size: 1em;
+
+}
+
+input#iesqueci{
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    width: 95%;
+    border-color: #49a09d;
+    border-radius: 10px;
+    margin-left: 6px;
+    font-size: 1em;
+    
+}
