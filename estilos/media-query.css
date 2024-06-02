@@ -43,12 +43,12 @@
     }
 
     input#ilogin{
-        width: 97%;
+        width: 92%;
         text-indent: 10px;
     }
 
     input#isenha{
-        width: 97%;
+        width: 92%;
         text-indent: 10px;
     }
 
@@ -64,7 +64,7 @@
 
     section#login {
         width: 990px;
-        height: 400px;
+        height: 450px;
     }
 
     section#login > div#imagem{
@@ -93,12 +93,12 @@
         padding: 10px;
     }
     input#ilogin{
-        width: 97%;
+        width: 93%;
         text-indent: 10px;
     }
 
     input#isenha{
-        width: 97%;
+        width: 93%;
         text-indent: 10px;
         
     }
