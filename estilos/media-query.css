@@ -36,6 +36,10 @@
         width: 95%;
     }
 
+    div.campo{
+        width: 90%;
+    }
+
     div#formulario > p{
         font-size: 1em;
         text-align: center;
