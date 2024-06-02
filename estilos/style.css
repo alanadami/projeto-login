@@ -82,7 +82,7 @@ i{
 input#ilogin{
     background-color:#49a09d;
     border-radius: 5px;
-    width:88%;
+    width:95%;
     height: 25px;
     border: none;
    
@@ -92,7 +92,7 @@ input#isenha{
     color: white;
     background-color:#49a09d;
     border-radius: 5px;
-    width:87%;
+    width:95%;
     height: 25px;
     border: none;
 }
